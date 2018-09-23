@@ -4,7 +4,7 @@ This is a quiz to help you choose the ideal getaway for your mind. Designed for 
 
 ## Setup/Installation Requirements
 
-1. Download this repository using the terminal.
+1. Download this repository using the terminal: git clone https://github.com/azulejx/reality-vacation.git
 2. View the code on a text editor -like [Atom](https://atom.io/).
 3. Run the quiz by opening the index.html file (double-clicking the file will open it in your default web browser)
 
