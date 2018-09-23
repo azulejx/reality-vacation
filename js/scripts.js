@@ -19,11 +19,13 @@ $(document).ready(function() {
     else if(results === 30 || results === 40 || results === 50 || results === 130 || results === 140 || results === 230){
       $("#youranswer").show();
       $("#butler").show();
+      $("#readit").show();
     }
 
     else if(results >= 300){
       $("#youranswer").show();
       $("#leguin").show();
+      $("#readit").show();
     }
 
     else if(results === 120 || results === 210 || results === 220){
