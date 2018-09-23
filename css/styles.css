@@ -1,5 +1,9 @@
-#marquez, #butler, #leguin, #tie, #error {
+#youranswer, #marquez, #butler, #leguin, #readit, #tie, #error {
   display: none;
+}
+
+#marquez, #butler, #leguin {
+  margin-bottom: 15px;
 }
 
 .jumbotron {
