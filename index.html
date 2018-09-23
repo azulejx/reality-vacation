@@ -9,56 +9,72 @@
     <script src="js/scripts.js" type="text/javascript"></script>
   </head>
   <body>
-    <h1>Get Me Out of Here</h1>
-    <h2>A quiz for when we need to take a break from this reality</h2>
-    <form id="form">
-      <h3>1. Who would you like to have as a vacation guide?</h3>
-      <select class="form-control question1">
-        <option value="0">A man.</option>
-        <option value="10">A woman.</option>
-        <option value="100">No gender, please.</option>
-      </select>
-      <h3>2. What is your favorite weather?</h3>
-      <select class="form-control question2">
-        <option value="0">Nice and warm.</option>
-        <option value="10">Borderline dystopian hot.</option>
-        <option value="100">Frigid, thank you.</option>
-      </select>
-      <h3>3. What is your favorite type of food?</h3>
-      <select class="form-control question3">
-        <option value="0">South American magic.</option>
-        <option value="10">Homemade with foraged ingredients.</option>
-        <option value="100">Anything out of this world.</option>
-      </select>
-      <h3>4. What is your least favorite thing about our current reality?</h3>
-      <select class="form-control question4">
-        <option value="0">How inflexible it is.</option>
-        <option value="10">People's trust in governmental institutions.</option>
-        <option value="100">How boring our version of gender is.</option>
-      </select>
-      <h3>5. What would you like to get out of this trip?</h3>
-      <select class="form-control question5">
-        <option value="0">A new understanding of intergenerational relationships.</option>
-        <option value="10">To have my worst fears affirmed in a surprisingly hopeful way.</option>
-        <option value="100">To know what other ways society would distribute power outside our current identities.</option>
-      </select>
-      <button type="submit" class="btn">It's Go Time!</button>
-    </form>
-
-    <div id="marquez">
-      <p>You got A Hundred Years of Solitude!</p>
-    </div>
-    <div id="butler">
-      <p>You got The Parable of The Sower!</p>
-    </div>
-    <div id="leguin">
-      <p>You got The Left Hand of Darkness!</p>
-    </div>
-    <div id="tie">
-      <p>Oh, it's a tie. Search deep within your soul and change one of your answers to find your ideal reality getaway.</p>
-    </div>
-    <div id="error">
-      <p>Oh, oh. Try again!</p>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Get Me Out of Here</h1>
+        <h2>A quiz for when we need to take a break from this reality</h2>
+      </div>
+      <div class="container-fluid">
+        <form id="form">
+          <div class="row">
+            <h3>1. Who would you like to have as a vacation guide?</h3>
+            <select class="form-control question1">
+              <option>Click here to select!</option>
+              <option value="0">A man.</option>
+              <option value="10">A woman.</option>
+              <option value="100">No gender, please.</option>
+            </select>
+            <h3>2. What is your favorite weather?</h3>
+            <select class="form-control question2">
+              <option>Click here to select!</option>
+              <option value="0">Nice and warm.</option>
+              <option value="10">Borderline dystopian hot.</option>
+              <option value="100">Frigid, thank you.</option>
+            </select>
+            <h3>3. What is your favorite type of food?</h3>
+            <select class="form-control question3">
+              <option>Click here to select!</option>
+              <option value="0">South American magic.</option>
+              <option value="10">Homemade with foraged ingredients.</option>
+              <option value="100">Anything out of this world.</option>
+            </select>
+            <h3>4. What is your least favorite thing about our current reality?</h3>
+            <select class="form-control question4">
+              <option>Click here to select!</option>
+              <option value="0">How inflexible it is.</option>
+              <option value="10">People's trust in governmental institutions.</option>
+              <option value="100">How boring our version of gender is.</option>
+            </select>
+            <h3>5. What would you like to get out of this trip?</h3>
+            <select class="form-control question5">
+              <option>Click here to select!</option>
+              <option value="0">A new understanding of intergenerational relationships.</option>
+              <option value="10">To have my worst fears affirmed in a surprisingly hopeful way.</option>
+              <option value="100">To know what other ways society would distribute power outside our current identities.</option>
+            </select>
+          </div>
+          <div class="row">
+            <button type="submit" class="btn btn-success active">It's Go Time!</button>
+          </div>
+        </form>
+        <div class="row">
+          <div id="marquez">
+            <p>You got A Hundred Years of Solitude!</p>
+          </div>
+          <div id="butler">
+            <p>You got The Parable of The Sower!</p>
+          </div>
+          <div id="leguin">
+            <p>You got The Left Hand of Darkness!</p>
+          </div>
+          <div id="tie">
+            <p>Oh, it's a tie. Search deep within your soul and change one of your answers to find your ideal reality getaway.</p>
+          </div>
+          <div id="error">
+            <p>Oh, oh, you have to actually answer each question. We are not mindreaders here.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
